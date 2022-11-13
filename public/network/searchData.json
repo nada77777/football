@@ -1,0 +1,763 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "FqHnGR9dPzmVeUaGHp5WYeGhno8",
+    "nextPageToken": "CBQQAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 20
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OecQvVuAxSxMG54Gso-azHezMhw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wGhUrQ47kd0"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-10T01:00:06Z",
+                "channelId": "UC_hK9fOxyy_TM8FJGXIyG8Q",
+                "title": "BOYS VS. GIRLS Prank War GOES TOO FAR, What Happens Is Shocking | Dhar Mann",
+                "description": "NEW Pop Art Merch Drop OUT NOW, shop here: https://shop.dharmann.com/ ✓ Download my FREE mobile app App Store ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wGhUrQ47kd0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wGhUrQ47kd0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wGhUrQ47kd0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Dhar Mann",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-10T01:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tEqRiYStiPpoYJd8auPjNxXF4LI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ejc5zic4q2A"
+            },
+            "snippet": {
+                "publishedAt": "2013-12-17T15:30:02Z",
+                "channelId": "UC81hVmI5eEBIt3s3HQpJd_w",
+                "title": "what. (Bo Burnham FULL SHOW HD)",
+                "description": "what. I hope you enjoy it. buy the CD here: https://itunes.apple.com/us/album/what./id773753940 or get my poetry book here: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ejc5zic4q2A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ejc5zic4q2A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ejc5zic4q2A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "boburnham",
+                "liveBroadcastContent": "none",
+                "publishTime": "2013-12-17T15:30:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iN6wI7h4oAc7TLqqU_iTa6nFuPE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "EpeokNluPOo"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-26T10:00:08Z",
+                "channelId": "UCviI9lzTe2pkxJ9M2ArA7WQ",
+                "title": "Paul Blanco - Summer (Feat. BE&#39;O) | [DF LIVE] 폴 블랑코, 비오",
+                "description": "폴블랑코 #PaulBlanco #비오 #BEO #SUMMER #딩고프리스타일 #DingoFreestyle #DF 메이크어스 : musicbiz@makeus.com 딩고 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EpeokNluPOo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EpeokNluPOo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EpeokNluPOo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "dingo freestyle",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-26T10:00:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "1uDUKKlAnxjdhhnrkLaa6NmGNPM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "h7L-FYz89UQ"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-30T09:02:59Z",
+                "channelId": "UCFIo26G3nImrcvqdF48AOfQ",
+                "title": "Sound of Smoke",
+                "description": "Provided to YouTube by Genie Music Corporation Sound of Smoke · Paul Blanco Sound of Smoke ℗ 2022 Ambition Musik ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/h7L-FYz89UQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/h7L-FYz89UQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/h7L-FYz89UQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Blanco - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-30T09:02:59Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "f5kZsdLG11YaYXqGynIX_nWWhF8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Yj_Z2mXXnIA"
+            },
+            "snippet": {
+                "publishedAt": "2020-08-15T08:57:21Z",
+                "channelId": "UCFIo26G3nImrcvqdF48AOfQ",
+                "title": "Believe (Feat. Crush)",
+                "description": "Provided to YouTube by Genie Music Corporation Believe (Feat. Crush) · Paul Blanco MINE ℗ 2020 Masquerade Released on: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Yj_Z2mXXnIA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Yj_Z2mXXnIA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Yj_Z2mXXnIA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Blanco - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-08-15T08:57:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IQzbSta9Uym944Ehq_8wPlLarkQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "JmGR1Jbp_Q8"
+            },
+            "snippet": {
+                "publishedAt": "2019-04-19T10:23:32Z",
+                "channelId": "UCFIo26G3nImrcvqdF48AOfQ",
+                "title": "Wraith",
+                "description": "Provided to YouTube by Genie Music Wraith · Paul Blanco Lake of Fire ℗ Genie Music Corporation, Stone Music Entertainment ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JmGR1Jbp_Q8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JmGR1Jbp_Q8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JmGR1Jbp_Q8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Blanco - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-04-19T10:23:32Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "viMNDrm0ssQREjXmXyR1ejBSeRg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rzeTkPxr2HU"
+            },
+            "snippet": {
+                "publishedAt": "2022-03-24T09:09:44Z",
+                "channelId": "UCFIo26G3nImrcvqdF48AOfQ",
+                "title": "Better Days",
+                "description": "Provided to YouTube by Genie Music Corporation Better Days · Paul Blanco PROMISED LAND ℗ 2022 AMBITION MUSIK ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rzeTkPxr2HU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rzeTkPxr2HU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rzeTkPxr2HU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Blanco - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-03-24T09:09:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "wqkvLrsHWm5mFAY-iIzrE8LQB1I",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MYZXUJ-BG-Q"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-15T09:05:04Z",
+                "channelId": "UCFIo26G3nImrcvqdF48AOfQ",
+                "title": "Summer (Feat. BE′O)",
+                "description": "Provided to YouTube by Genie Music Corporation Summer (Feat. BE′O) · Paul Blanco · BE′O Summer ℗ 2022 AMBITION ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MYZXUJ-BG-Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MYZXUJ-BG-Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MYZXUJ-BG-Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Blanco - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-15T09:05:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "8Kfo-WVfb-XkG1_QviI67KqVB9g",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "70aw-NxPu7c"
+            },
+            "snippet": {
+                "publishedAt": "2020-06-03T09:15:38Z",
+                "channelId": "UCFIo26G3nImrcvqdF48AOfQ",
+                "title": "Star Ceiling",
+                "description": "Provided to YouTube by Genie Music Corporation Star Ceiling · Paul Blanco BIPOLAR ℗ 2020 Ambition Musik Released on: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/70aw-NxPu7c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/70aw-NxPu7c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/70aw-NxPu7c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Blanco - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-06-03T09:15:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "N_6BWx5UPyYDzVvSzWdQoo788aY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "u1MDr0lfR_8"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-28T08:00:38Z",
+                "channelId": "UCphcCf6rxdaqesB296eRUTQ",
+                "title": "Paul Blanco - Hold You Down (Official Video)",
+                "description": "Lake of Fire II Available Everywhere https://ffm.to/exeaamd.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/u1MDr0lfR_8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/u1MDr0lfR_8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/u1MDr0lfR_8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Blanco",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-28T08:00:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "otIkcXJYPPyZQS4mRLu-5hmn6Zs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "RS0QQ1gm3i8"
+            },
+            "snippet": {
+                "publishedAt": "2019-12-19T08:25:25Z",
+                "channelId": "UCRRdwcQaU4x98otHO_XsncQ",
+                "title": "Paul Blanco - Wraith (LIVE) / RAPHOUSE ON AIR (EP.16)",
+                "description": "네이버 나우 RAPHOUSE ON AIR (EP.16) Paul Blanco - Wraith (LIVE) * 'RAPHOUSE ON AIR'는 매주 목요일 밤 10시, 네이버 앱 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RS0QQ1gm3i8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RS0QQ1gm3i8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RS0QQ1gm3i8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HIPHOPLE",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-12-19T08:25:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "8AaZXvJBHbxpjDnbp7GPZB5XA38",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mOZqd0bDDcQ"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-15T09:38:43Z",
+                "channelId": "UCGuE0TrBNIZKfordUwAQe2w",
+                "title": "Paul Blanco - Summer (Feat. BE’O (비오)) [Summer]ㅣLyrics/가사",
+                "description": "본 영상은 가사 자막 영상입니다, 수익 창출은 되지 않습니다. ▻ 광고 재생시 광고에 대한 수익은 저작권자에게 돌아갑니다 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mOZqd0bDDcQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mOZqd0bDDcQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mOZqd0bDDcQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "알파",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-15T09:38:43Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "DR6ZynA_bxuMuA-Enlg6vQs6dDo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Bbl3qPS9x4o"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-20T09:22:39Z",
+                "channelId": "UCqcE_goIwnB-lkRhNnVUZdw",
+                "title": "Siren Remix (Feat. UNEDUCATED KID, Paul Blanco) (사이렌 Remix (Feat. UNEDUCATED KID, Paul...",
+                "description": "Provided to YouTube by Loen Entertainment Inc Siren Remix (Feat. UNEDUCATED KID, Paul Blanco) (사이렌 Remix (Feat.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Bbl3qPS9x4o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Bbl3qPS9x4o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Bbl3qPS9x4o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Homies - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-20T09:22:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "8Aww_RnETWEAv4ECjgcvjY13I9A",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GOyti1yKI6I"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-15T01:32:27Z",
+                "channelId": "UCHweiL2jw_hRq_gBJk-jKwg",
+                "title": "💿𝗙𝗨𝗟𝗟▸ 폴 블랑코 노래모음 | Paul Blanco songs playlist",
+                "description": "가수 / 노래를 추천해주세요 ▷ https://url.kr/fokuhs (구글 설문지) 2:34:47​​ 광고제거 #폴블랑코 #PaulBlanco #플레이 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GOyti1yKI6I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GOyti1yKI6I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GOyti1yKI6I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "스너그 ᴘʟᴀʏʟɪꜱᴛ",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-15T01:32:27Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Dh_ywbl9eJtSCo29dFhu-nXIzIo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "K0bBz680Q3I"
+            },
+            "snippet": {
+                "publishedAt": "2019-04-19T10:24:58Z",
+                "channelId": "UCFIo26G3nImrcvqdF48AOfQ",
+                "title": "Itachi Mode",
+                "description": "Provided to YouTube by Genie Music Itachi Mode · Paul Blanco Lake of Fire ℗ Genie Music Corporation, Stone Music ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/K0bBz680Q3I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/K0bBz680Q3I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/K0bBz680Q3I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Blanco - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-04-19T10:24:58Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "B3LyUFTtEf09ik-UbyZTHp7uAsg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5DtjiUpsx98"
+            },
+            "snippet": {
+                "publishedAt": "2022-02-22T11:00:02Z",
+                "channelId": "UC4mMqn0EPMoOwWqU8--2how",
+                "title": "Way Ched - Spin The Block (feat. Paul Blanco, 365LIT, LIL GIMCHI) [Official Music Video]",
+                "description": "Way Ched의 \"Spin the Block (feat. Paul Blanco, 365LIT, LIL GIMCHI)” 뮤직비디오를 공개합니다. Lyrics by Paul Blanco, 365LIT, LIL ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5DtjiUpsx98/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5DtjiUpsx98/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5DtjiUpsx98/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Ambition Musik",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-02-22T11:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7WhHdvO6xlLU4M4Ge6GymJ2viBw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "B6DmQP4cgsQ"
+            },
+            "snippet": {
+                "publishedAt": "2020-02-01T09:00:02Z",
+                "channelId": "UCviI9lzTe2pkxJ9M2ArA7WQ",
+                "title": "Paul Blanco (폴 블랑코) - Winter I [DF LIVE]",
+                "description": "폴블랑코 #Paul_Blanco #winter #딩고프리스타일 #DingoFreestyle #DF_LIVE 메이크어스 : musicbiz@makeus.com 딩고프리 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/B6DmQP4cgsQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/B6DmQP4cgsQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/B6DmQP4cgsQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "dingo freestyle",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-02-01T09:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "L0qw_k0gGdku9XIF1p0pCQoX-jY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "PkL989XwSSw"
+            },
+            "snippet": {
+                "publishedAt": "2018-10-29T05:54:28Z",
+                "channelId": "UCFIo26G3nImrcvqdF48AOfQ",
+                "title": "Last",
+                "description": "Provided to YouTube by CJ Digital Music Last · Paul Blanco Last ℗ Stone Music Entertainment Released on: 2018-10-27 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PkL989XwSSw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PkL989XwSSw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PkL989XwSSw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Blanco - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-10-29T05:54:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "uwvSbUIIQKBrkkqYzMVuxF1NFhs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "JJDN4DOV2pM"
+            },
+            "snippet": {
+                "publishedAt": "2021-11-30T09:02:40Z",
+                "channelId": "UCnjYjwzLQ66kRDikH0YVlpw",
+                "title": "Daisy Remix (feat. Paul Blanco &amp; ASH ISLAND)",
+                "description": "Provided to YouTube by WM Korea Daisy Remix (feat. Paul Blanco & ASH ISLAND) · Mirani · Paul Blanco · ASH ISLAND ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JJDN4DOV2pM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JJDN4DOV2pM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JJDN4DOV2pM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Mirani - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-11-30T09:02:40Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vPUGkqBr_yYbWWwaZzUUhJ-EO0I",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "aRPz-Y_Ydqs"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-03T10:25:55Z",
+                "channelId": "UCCRarThDwdUTSmtvFnoPD4Q",
+                "title": "Paul Blanco - Summer (Feat. BE’O (비오)) (cover) l BUNNY",
+                "description": "더워요 - instagram : https://www.instagram.com/_bunnyda/?hl=ko 비즈니스 문의 : dh.han062@gmail.com mixing & master ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aRPz-Y_Ydqs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aRPz-Y_Ydqs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aRPz-Y_Ydqs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "BUNNY",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-03T10:25:55Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3ErdxwAS8hdpmkpasexAHapNY7c",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ueMpe4gznvc"
+            },
+            "snippet": {
+                "publishedAt": "2022-03-24T09:00:22Z",
+                "channelId": "UC4mMqn0EPMoOwWqU8--2how",
+                "title": "PAUL BLANCO - PROMISED LAND (Full Album)",
+                "description": "PAUL BLANCO(폴 블랑코)의 앨범 \"PROMISED LAND\" 00:00 1. Rust 02:21 2. 원하는대로 (As You Wish) 05:00 3. Better Days ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ueMpe4gznvc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ueMpe4gznvc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ueMpe4gznvc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Ambition Musik",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-03-24T09:00:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7TAItZYC94nTE3lgQNJ3XgtY0J0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "A9080hOYccA"
+            },
+            "snippet": {
+                "publishedAt": "2020-08-15T08:57:21Z",
+                "channelId": "UCFIo26G3nImrcvqdF48AOfQ",
+                "title": "Money",
+                "description": "Provided to YouTube by Genie Music Corporation Money · Paul Blanco MINE ℗ 2020 Masquerade Released on: 2020-08-15 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/A9080hOYccA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/A9080hOYccA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/A9080hOYccA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Blanco - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-08-15T08:57:21Z"
+            }
+        }
+    ]
+}
+
+
+
