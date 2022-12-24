@@ -1,0 +1,21 @@
+.standings {
+    color: gray;
+    text-align: center;
+    background-color: rgb(32, 35, 47);
+}
+
+.standingsTop {
+    padding: 20px 10px 0 10px;
+}
+
+
+.standingsTopTitle {
+    padding: 5px;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+}

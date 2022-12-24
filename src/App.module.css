@@ -1,6 +1,18 @@
+/* 1536 x 864  */
 .app {
     width: 100%;
     height: 100%;
-    max-width: 1200px;
-    margin: auto
-};
+    max-width: 1536px;
+    margin: auto;
+    background-color:aqua;
+}
+
+.appInner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.appRight {
+    flex-basis: 60%;
+}

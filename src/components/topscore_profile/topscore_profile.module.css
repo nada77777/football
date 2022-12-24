@@ -1,0 +1,72 @@
+.profile {
+    background-image: url('../../../public/imgs/profile_back.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.profileInner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playerInfo {
+    display: flex;
+    align-items: center;
+}
+
+.playerInfo p {
+    font-size: 14px;
+    font-weight: 600;
+    /* color: #acb2bc; */
+}
+
+.playerInfo p:first-child {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.playerImg {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    border: 2px solid #a48d8d;
+    margin-right: 30px;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.teamLogo {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.team p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* <section className={styles.profile}>
+            <div className={styles.profileInner}>
+                <div className={styles.playerInfo}>
+                    <img className={styles.img} src={player.player.photo} alt="player_img" />
+                    <p>{player.player.name}</p>
+                    <p>{player.player.birth.country}</p>
+                    <p>{player.player.age}</p>
+                    <p>{player.player.height}/{player.player.weight}</p>
+                </div>
+                <div className={styles.team}>
+                    <img src={player.statistics[0].team.logo} alt="team_logo" />
+                    <p>{player.statistics[0].team.name}</p>
+                </div>
+            </div>
+        </section> */
