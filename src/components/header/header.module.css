@@ -1,6 +1,6 @@
 /* #37003c */
 .header {
-    background-color: antiquewhite;
+    margin-bottom: 20px;
 }
 
 
@@ -31,6 +31,8 @@
 }
 
 .nav {
+    display: flex;
+    align-items: center;
     background-color: #37003c;
     color: white;
     padding: 20px 0px;
@@ -38,14 +40,15 @@
 
 .nav ul {
     display: flex;
-    justify-content: space-between;
     max-width: 1250px;
-    margin: auto;
+    width: 100%;
+    padding-left: 150px;
 }
 
 .nav ul li {
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 700;
+    margin: 0 10px;
 }
 
 .navLogo {

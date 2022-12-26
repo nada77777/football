@@ -9,28 +9,28 @@
     border-radius: 6px;
 }
 
-.profileInner {
+.profile .profileInner {
     display: flex;
     justify-content: space-between;
 }
 
-.playerInfo {
+.profile .playerInfo {
     display: flex;
     align-items: center;
 }
 
-.playerInfo p {
+.profile .playerInfo p {
     font-size: 14px;
     font-weight: 600;
     /* color: #acb2bc; */
 }
 
-.playerInfo p:first-child {
+.profile .playerInfo p:first-child {
     font-size: 36px;
     font-weight: 700;
 }
 
-.playerImg {
+.profile .playerImg {
     max-width: 150px;
     max-height: 150px;
     border-radius: 50%;
@@ -38,19 +38,103 @@
     margin-right: 30px;
 }
 
-.team {
+.profile .team {
     display: flex;
     align-items: center;
     text-align: start;
 }
 
-.teamLogo {
+.profile .teamLogo {
     width: 50px;
     height: 50px;
     margin: 10px;
 }
 
-.team p {
+.profile .team p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.squad {
+    background-color: #37003c;
+    color: white;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.squad .profileInner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.squad .playerInfo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.squad .playerInfo p {
+    font-size: 14px;
+    font-weight: 600;
+    /* color: #acb2bc; */
+}
+
+.squad .playerInfo p:first-child {
+    font-weight: 700;
+}
+
+.squad .playerImg {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    border: 2px solid #a48d8d;
+    margin-right: 30px;
+}
+
+.squad .playerInfoText {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.squad .playerInfoText p {
+    margin: 0 5px;
+}
+
+.squad .playerInfoText p:first-child {
+    position: absolute;
+    left: 0;
+}
+
+.squad .team {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.squad .teamLogo {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.squad .team p {
     font-size: 20px;
     font-weight: 600;
 }

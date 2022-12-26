@@ -2,13 +2,16 @@
     flex-basis: 33%;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid #efefef;
     text-align: center;
+
 }
 
 .standingsTop {
     padding: 20px 10px 0 10px;
     background-color: #ff2882;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .standingsTop img {
@@ -20,33 +23,37 @@
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     background-color: white;
+    font-weight: 600;
+    color: #333;
 }
 
-table {
-    border-collapse: collapse
+.standingsTable {
+    border-collapse: collapse;
+    background-color: white;
+    color: #333;
 }
 
-table thead {
+.standingsTable thead {
     background-color: #fbfbfb;
 }
 
-table thead th {
+.standingsTable thead th {
     padding: 12px 0;
 }
 
-table tbody {
+.standingsTable tbody {
     font-weight: 600;
 }
 
-table tbody tr {
+.standingsTable tbody tr {
     border-bottom: 1px solid #efefef;
 }
 
-table tbody td {
+.standingsTable tbody td {
     padding: 10px 0;
 }
 
-table tbody td:nth-child(2) {
+.standingsTable tbody td:nth-child(2) {
     display: flex;
     align-items: center;
 }

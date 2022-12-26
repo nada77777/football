@@ -3,8 +3,7 @@ import styles from './club_info.module.css';
 const ClubResult = ({ clubResultItem }) => {
     const { result: { win, lose, draw, played, goals }, rank, points } = clubResultItem;
     return (
-        <>
-            <h1>clubInfo</h1>
+        <section className={styles.clubResult}>
             <table className={styles.clubInfoTable}>
                 <thead>
                     <tr>
@@ -39,7 +38,7 @@ const ClubResult = ({ clubResultItem }) => {
                     </tr>
                 </tbody>
             </table>
-        </>
+        </section>
     );
 };
 

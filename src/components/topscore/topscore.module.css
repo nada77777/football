@@ -1,11 +1,13 @@
 .standings {
-
-    color: gray;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
     text-align: center;
     background-color: rgb(32, 35, 47);
 }
 
 .standingsTop {
+    color: #333;
+    font-weight: 600;
     padding: 20px 10px 0 10px;
 }
 
@@ -17,6 +19,33 @@
     background-color: white;
 }
 
-table {
+.topScoreTable {
     width: 100%;
+    border: 1px solid #efefef;
+    color: #333;
+}
+
+.topScoreTable {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.topScoreTable thead {
+    background-color: #fbfbfb;
+}
+
+.topScoreTable thead th {
+    padding: 12px 0;
+}
+
+.topScoreTable tbody {
+    font-weight: 600;
+}
+
+.topScoreTable tbody tr {
+    border-bottom: 1px solid #efefef;
+}
+
+.topScoreTable tbody td {
+    padding: 10px 0;
 }

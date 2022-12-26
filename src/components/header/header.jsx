@@ -27,8 +27,8 @@ const Header = (props) => {
                 <ul>
                     <li>Premier League</li>
                     <li onClick={() => navigate('/clubs')}>Clubs</li>
-                    <li>No Room For Racism</li>
                 </ul>
+                <h1>No Room For Racism</h1>
             </div>
 
         </section>

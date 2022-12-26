@@ -4,9 +4,9 @@ import StandingsList from '../standings_list/standings_list';
 import styles from './standings.module.css';
 
 const Standings = (props) => {
-    const {standingItems} = UseStandingsContext();
+    const { standingItems } = UseStandingsContext();
 
-    return(
+    return (
         <section className={styles.standings}>
             <div className={styles.standingsTop}>
                 <img src='imgs/standing_logo.png' alt="standing_logo" />
@@ -14,8 +14,8 @@ const Standings = (props) => {
                     <span>First Team</span>
                 </div>
             </div>
-         
-            <table>
+
+            <table className={styles.standingsTable}>
                 <thead>
                     <tr>
                         <th>순위</th>
@@ -26,13 +26,13 @@ const Standings = (props) => {
                         <th>경기</th>
                         <th>득실차</th>
                         <th>승점</th>
-                    </tr>  
+                    </tr>
                 </thead>
                 <tbody>
-                    {standingItems && standingItems.map((standingItem) => <StandingsList key={standingItem.team.id} standingItem={standingItem}/>)}
+                    {standingItems && standingItems.map((standingItem) => <StandingsList key={standingItem.team.id} standingItem={standingItem} />)}
                 </tbody>
             </table>
-           
+
         </section>
     );
 };

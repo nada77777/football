@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         element: <section className='appInner'>
           <Standings />
           <section className='appRight'>
-            <TopScoreProfile />
+            <TopScoreProfile display='topscoreDisplay' />
             <TopScore />
           </section>
         </section>

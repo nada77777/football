@@ -8,7 +8,7 @@ const ClubSquad = ({ clubPlayers }) => {
         <>
             <h1>ss</h1>
             <ul>
-                {clubPlayers && clubPlayers.map((clubPlayer) => <TopScoreProfile key={clubPlayer.id} clubPlayer={clubPlayer} squad={'squad'} />)}
+                {clubPlayers && clubPlayers.map((clubPlayer) => <TopScoreProfile key={clubPlayer.id} clubPlayer={clubPlayer} display='squadDisplay' />)}
             </ul>
         </>
     );
