@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 const topScoreContext = createContext();
 
-export function TopScoreContextProvider({children}){
+export function TopScoreContextProvider({ children }) {
     const [topScoreItems, setTopScoreItems] = useState();
     const [topPlayer, setTopPlayer] = useState({});
 
@@ -17,15 +17,16 @@ export function TopScoreContextProvider({children}){
 
     useEffect(() => {
         getTopScoreData();
-        console.log('ssssss');
-    },[]);
+    }, []);
 
-     const getTopScoreData = ()  => {
+    const getTopScoreData = () => {
         fetch('data/topScore.json')
-        .then(response => response.json())
-        .then(response => response.response)
-        .then(result => {setTopScoreItems(result.slice(0,11))
-                        setTopPlayer(result[0])});
+            .then(response => response.json())
+            .then(response => response.response)
+            .then(result => {
+                setTopScoreItems(result.slice(0, 11))
+                setTopPlayer(result[0])
+            });
     };
 
     const changeProfile = (profile) => {
@@ -33,8 +34,8 @@ export function TopScoreContextProvider({children}){
     };
 
 
-    return(
-        <topScoreContext.Provider value={{topScoreItems, topPlayer, changeProfile}}>
+    return (
+        <topScoreContext.Provider value={{ topScoreItems, topPlayer, changeProfile }}>
             {children}
         </topScoreContext.Provider>
     );

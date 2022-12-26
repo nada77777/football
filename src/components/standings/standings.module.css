@@ -17,13 +17,13 @@
 
 .standingsTopTitle {
     padding: 5px;
-    border-top-left-radius:6px;
-    border-top-right-radius:6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
     background-color: white;
 }
 
-table  {
-    border-collapse : collapse
+table {
+    border-collapse: collapse
 }
 
 table thead {
@@ -34,13 +34,16 @@ table thead th {
     padding: 12px 0;
 }
 
-table tbody{
+table tbody {
     font-weight: 600;
 }
 
+table tbody tr {
+    border-bottom: 1px solid #efefef;
+}
+
 table tbody td {
-padding: 10px 0;
-border-bottom: 1px solid #efefef;
+    padding: 10px 0;
 }
 
 table tbody td:nth-child(2) {

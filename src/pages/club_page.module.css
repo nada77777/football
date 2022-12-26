@@ -1,0 +1,4 @@
+.clubItems {
+    display: flex;
+    flex-wrap: wrap;
+}
