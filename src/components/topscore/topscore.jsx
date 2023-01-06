@@ -3,9 +3,9 @@ import { UseTopScoreContext } from '../../context/topscoreContext';
 import TopScoreList from '../topscore_list/topscore_list';
 
 import styles from './topscore.module.css';
-const TopScore = (props) => {
+const TopScore = ({ topScoreItems }) => {
 
-    const { topScoreItems, changeProfile } = UseTopScoreContext();
+    // const { changeProfile } = UseTopScoreContext(); 추가해야함!!!!!!!!!!!!!!!!!
 
     return (
         <section className={styles.standings}>
@@ -27,7 +27,7 @@ const TopScore = (props) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {topScoreItems && topScoreItems.map((topScoreItem, index) => <TopScoreList key={topScoreItem.player.id} topScoreItem={topScoreItem} changeProfile={changeProfile} rank={index + 1} />)}
+                    {topScoreItems && topScoreItems.map((topScoreItem, index) => <TopScoreList key={topScoreItem.player.id} topScoreItem={topScoreItem} rank={index + 1} />)}
                 </tbody>
             </table>
 

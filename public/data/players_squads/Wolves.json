@@ -1,0 +1,287 @@
+{
+    "get": "players/squads",
+    "parameters": {
+        "team": "39"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "team": {
+                "id": 39,
+                "name": "Wolves",
+                "logo": "https://media-2.api-sports.io/football/teams/39.png"
+            },
+            "players": [
+                {
+                    "id": 1590,
+                    "name": "José Sá",
+                    "age": 29,
+                    "number": 1,
+                    "position": "Goalkeeper",
+                    "photo": "https://media-2.api-sports.io/football/players/1590.png"
+                },
+                {
+                    "id": 19173,
+                    "name": "M. Šarkić",
+                    "age": 25,
+                    "number": 13,
+                    "position": "Goalkeeper",
+                    "photo": "https://media-2.api-sports.io/football/players/19173.png"
+                },
+                {
+                    "id": 144741,
+                    "name": "Louie Moulden",
+                    "age": 20,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "photo": "https://media-2.api-sports.io/football/players/144741.png"
+                },
+                {
+                    "id": 280689,
+                    "name": "J. Smith",
+                    "age": 21,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "photo": "https://media-1.api-sports.io/football/players/280689.png"
+                },
+                {
+                    "id": 21138,
+                    "name": "R. Aït Nouri",
+                    "age": 21,
+                    "number": 3,
+                    "position": "Defender",
+                    "photo": "https://media-2.api-sports.io/football/players/21138.png"
+                },
+                {
+                    "id": 19495,
+                    "name": "N. Collins",
+                    "age": 21,
+                    "number": 4,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/19495.png"
+                },
+                {
+                    "id": 195717,
+                    "name": "Y. Mosquera",
+                    "age": 21,
+                    "number": 14,
+                    "position": "Defender",
+                    "photo": "https://media-2.api-sports.io/football/players/195717.png"
+                },
+                {
+                    "id": 18740,
+                    "name": "Jonny Castro",
+                    "age": 28,
+                    "number": 19,
+                    "position": "Defender",
+                    "photo": "https://media-2.api-sports.io/football/players/18740.png"
+                },
+                {
+                    "id": 130,
+                    "name": "Nélson Semedo",
+                    "age": 29,
+                    "number": 22,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/130.png"
+                },
+                {
+                    "id": 18744,
+                    "name": "M. Kilman",
+                    "age": 25,
+                    "number": 23,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/18744.png"
+                },
+                {
+                    "id": 41606,
+                    "name": "Toti",
+                    "age": 23,
+                    "number": 24,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/41606.png"
+                },
+                {
+                    "id": 280687,
+                    "name": "Hugo Bueno",
+                    "age": 20,
+                    "number": 64,
+                    "position": "Defender",
+                    "photo": "https://media-2.api-sports.io/football/players/280687.png"
+                },
+                {
+                    "id": 284237,
+                    "name": "D. Lembikisa",
+                    "age": 19,
+                    "number": 81,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/284237.png"
+                },
+                {
+                    "id": 157912,
+                    "name": "B. Traoré",
+                    "age": 21,
+                    "number": 6,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/157912.png"
+                },
+                {
+                    "id": 2676,
+                    "name": "Rúben Neves",
+                    "age": 25,
+                    "number": 8,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/2676.png"
+                },
+                {
+                    "id": 1605,
+                    "name": "Daniel Podence",
+                    "age": 27,
+                    "number": 10,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/1605.png"
+                },
+                {
+                    "id": 61178,
+                    "name": "C. Ronan",
+                    "age": 24,
+                    "number": 25,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/61178.png"
+                },
+                {
+                    "id": 41621,
+                    "name": "Matheus Nunes",
+                    "age": 24,
+                    "number": 27,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/41621.png"
+                },
+                {
+                    "id": 2677,
+                    "name": "João Moutinho",
+                    "age": 36,
+                    "number": 28,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/2677.png"
+                },
+                {
+                    "id": 204033,
+                    "name": "J. Hodge",
+                    "age": 20,
+                    "number": 59,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/204033.png"
+                },
+                {
+                    "id": 284262,
+                    "name": "H. Griffiths",
+                    "age": 19,
+                    "number": 66,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/284262.png"
+                },
+                {
+                    "id": 158432,
+                    "name": "C. Campbell",
+                    "age": 20,
+                    "number": 77,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/158432.png"
+                },
+                {
+                    "id": 1864,
+                    "name": "Pedro Neto",
+                    "age": 22,
+                    "number": 7,
+                    "position": "Attacker",
+                    "photo": "https://media-2.api-sports.io/football/players/1864.png"
+                },
+                {
+                    "id": 2887,
+                    "name": "R. Jiménez",
+                    "age": 31,
+                    "number": 9,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/2887.png"
+                },
+                {
+                    "id": 24888,
+                    "name": "Hwang Hee-Chan",
+                    "age": 26,
+                    "number": 11,
+                    "position": "Attacker",
+                    "photo": "https://media-2.api-sports.io/football/players/24888.png"
+                },
+                {
+                    "id": 925,
+                    "name": "Gonçalo Guedes",
+                    "age": 26,
+                    "number": 17,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/925.png"
+                },
+                {
+                    "id": 7722,
+                    "name": "S. Kalajdzic",
+                    "age": 25,
+                    "number": 18,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/7722.png"
+                },
+                {
+                    "id": 195962,
+                    "name": "Chiquinho",
+                    "age": 22,
+                    "number": 20,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/195962.png"
+                },
+                {
+                    "id": 54,
+                    "name": "Diego Costa",
+                    "age": 34,
+                    "number": 29,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/54.png"
+                },
+                {
+                    "id": 18753,
+                    "name": "Adama Traoré",
+                    "age": 26,
+                    "number": 37,
+                    "position": "Attacker",
+                    "photo": "https://media-2.api-sports.io/football/players/18753.png"
+                },
+                {
+                    "id": 303019,
+                    "name": "N. Fraser",
+                    "age": 17,
+                    "number": 63,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/303019.png"
+                },
+                {
+                    "id": 2584,
+                    "name": "L. Campana",
+                    "age": 22,
+                    "number": null,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/2584.png"
+                },
+                {
+                    "id": 1165,
+                    "name": "Matheus Cunha",
+                    "age": 23,
+                    "number": null,
+                    "position": "Attacker",
+                    "photo": "https://media-2.api-sports.io/football/players/1165.png"
+                }
+            ]
+        }
+    ]
+}

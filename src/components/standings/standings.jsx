@@ -3,8 +3,7 @@ import { UseStandingsContext } from '../../context/standingsContext';
 import StandingsList from '../standings_list/standings_list';
 import styles from './standings.module.css';
 
-const Standings = (props) => {
-    const { standingItems } = UseStandingsContext();
+const Standings = ({ standingItems }) => {
 
     return (
         <section className={styles.standings}>

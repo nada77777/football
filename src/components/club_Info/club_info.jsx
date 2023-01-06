@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './club_info.module.css';
 const ClubResult = ({ clubResultItem }) => {
-    const { result: { win, lose, draw, played, goals }, rank, points } = clubResultItem;
+
+    const { all: { played, win, draw, lose, goals }, rank, points } = clubResultItem;
+
     return (
         <section className={styles.clubResult}>
             <table className={styles.clubInfoTable}>
@@ -43,7 +45,6 @@ const ClubResult = ({ clubResultItem }) => {
 };
 
 export default ClubResult;
-
 
 
 

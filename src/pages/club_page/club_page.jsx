@@ -1,18 +1,16 @@
 import React from 'react';
 import styles from './club_page.module.css';
-import ClubItem from '../components/club_item/club_item';
-import { UseStandingsContext } from '../context/standingsContext';
-import { UseClubInfoContext } from '../context/clubInfoContext';
+import ClubItem from '../../components/club_item/club_item';
+import { UseStandingsContext } from '../../context/standingsContext';
+
 
 const ClubPage = (props) => {
     const { clubItems } = UseStandingsContext();
-    const { getClubInfo } = UseClubInfoContext();
 
     return (
         <section className={styles.clubPage}>
-            <h1>s</h1>
             <ul className={styles.clubItems}>
-                {clubItems && clubItems.map((clubItem) => <ClubItem key={clubItem.team.id} clubItem={clubItem} getClubInfo={getClubInfo} />)}
+                {clubItems && clubItems.map((clubItem) => <ClubItem key={clubItem.team.id} clubItem={clubItem} />)}
             </ul>
         </section>
     );

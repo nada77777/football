@@ -2,16 +2,16 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './club_item.module.css';
 
-const ClubItem = ({ clubItem, getClubInfo }) => {
+const ClubItem = ({ clubItem }) => {
     const navigate = useNavigate();
     const { name, logo, id } = clubItem.team;
     const teamURL = name.replace(/ /g, "");
 
     const onClick = (event) => {
         event.preventDefault();
-        navigate(`/${teamURL}`);
-        getClubInfo(id, clubItem);
-        console.log(clubItem);
+        navigate(`/${teamURL}/${id}`, { state: { clubId: id } });
+        // getClubInfo(id);
+        // console.log(clubItem);
     }
 
     return (

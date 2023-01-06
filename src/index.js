@@ -4,11 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import ClubPage from './pages/club_page';
+import ClubPage from './pages/club_page/club_page';
 import Standings from './components/standings/standings';
 import TopScoreProfile from './components/topscore_profile/topscore_profile';
 import TopScore from './components/topscore/topscore';
 import ClubInfoPage from './pages/club_info_page/club_info_page';
+import { TopScoreContextProvider } from './context/topscoreContext';
+import { ClubInfoContextProvider } from './context/clubInfoContext';
+import HomePage from './pages/home_page/home_page';
+import Header from './components/header/header';
+
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -17,21 +23,18 @@ const router = createBrowserRouter([
       {
         index: true,
         path: '/',
-        element: <section className='appInner'>
-          <Standings />
-          <section className='appRight'>
-            <TopScoreProfile display='topscoreDisplay' />
-            <TopScore />
-          </section>
-        </section>
+        element:
+
+          <HomePage />
+
       },
       {
         path: '/clubs',
-        element: <ClubPage />,
+        element: <ClubPage />
       },
       {
-        path: '/:teamURL',
-        element: <ClubInfoPage />,
+        path: '/:teamURL/:id',
+        element: <ClubInfoPage />
       },
     ],
   },

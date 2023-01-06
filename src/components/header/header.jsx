@@ -1,34 +1,52 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { UseDataContext } from '../../context/dataContext';
 import { UseStandingsContext } from '../../context/standingsContext';
 import styles from './header.module.css';
 
 const Header = (props) => {
-    const { clubItems } = UseStandingsContext();
+    // const { clubItems } = UseStandingsContext();
+    const [clubItems, setClubItems] = useState([]);
+    const { getData } = UseDataContext();
+    useEffect(() => {
+        getData.readStandingsAndClubListData()//
+            .then(result => setClubItems(result[0]));
+    }, [])
+
     const navigate = useNavigate();
+
+    const onClick = (event, path) => {
+        event.preventDefault();
+        navigate(path);
+    };
+
+    const goToClubPage = (item) => {
+        const { team: { name, id } } = item;
+        const teamURL = name.replace(/ /g, "");
+        navigate(`/${teamURL}/${id}`, { state: { clubId: id } });
+    };
 
     return (
         <section className={styles.header}>
-
             <div className={styles.logoHeader}>
                 <p>club site</p>
                 <ul>
                     {clubItems && clubItems.map((item) =>
-                        <li key={item.team.id}>
+                        <li key={item.team.id} onClick={() => goToClubPage(item)}>
                             <img src={item.team.logo} alt="img" />
                         </li>
                     )}
                 </ul>
             </div>
             <div className={styles.nav}>
-                <a className={styles.navLogo} href="ss">
+                <a onClick={(event) => onClick(event, '/')} className={styles.navLogo} href=" ">
                     <img src='imgs/main.png' alt='main_img' />
                 </a>
                 <ul>
-                    <li>Premier League</li>
-                    <li onClick={() => navigate('/clubs')}>Clubs</li>
+                    <li onClick={(event) => onClick(event, '/')}>Premier League</li>
+                    <li onClick={(event) => onClick(event, '/clubs')}>Clubs</li>
                 </ul>
-                <h1>No Room For Racism</h1>
+                <h1 className={styles.campaign}>No Room For Racism</h1>
             </div>
 
         </section>

@@ -1,0 +1,17 @@
+.appInner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.appRight {
+    flex-basis: 60%;
+}
+
+@media (max-width: 1100px) {
+
+    .appInner {
+        flex-direction: column;
+        padding: 5px;
+    }
+}

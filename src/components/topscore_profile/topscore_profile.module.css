@@ -7,6 +7,7 @@
     color: white;
     margin-bottom: 20px;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .profile .profileInner {
@@ -17,6 +18,7 @@
 .profile .playerInfo {
     display: flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .profile .playerInfo p {
@@ -61,18 +63,13 @@
 
 
 
-
-
-
-
-
-
 .squad {
     background-color: #37003c;
     color: white;
     padding: 5px 20px;
     margin-bottom: 10px;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .squad .profileInner {
@@ -138,6 +135,32 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+
+@media (max-width: 1100px) {
+
+    .profile .playerInfo p:first-child {
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* <section className={styles.profile}>
             <div className={styles.profileInner}>

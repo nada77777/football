@@ -1,0 +1,255 @@
+{
+    "get": "players/squads",
+    "parameters": {
+        "team": "66"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+        "current": 1,
+        "total": 1
+    },
+    "response": [
+        {
+            "team": {
+                "id": 66,
+                "name": "Aston Villa",
+                "logo": "https://media-1.api-sports.io/football/teams/66.png"
+            },
+            "players": [
+                {
+                    "id": 19599,
+                    "name": "E. Martínez",
+                    "age": 30,
+                    "number": 1,
+                    "position": "Goalkeeper",
+                    "photo": "https://media-1.api-sports.io/football/players/19599.png"
+                },
+                {
+                    "id": 19174,
+                    "name": "J. Steer",
+                    "age": 30,
+                    "number": 12,
+                    "position": "Goalkeeper",
+                    "photo": "https://media-2.api-sports.io/football/players/19174.png"
+                },
+                {
+                    "id": 766,
+                    "name": "R. Olsen",
+                    "age": 32,
+                    "number": 25,
+                    "position": "Goalkeeper",
+                    "photo": "https://media-1.api-sports.io/football/players/766.png"
+                },
+                {
+                    "id": 138937,
+                    "name": "F. Marschall",
+                    "age": 19,
+                    "number": 42,
+                    "position": "Goalkeeper",
+                    "photo": "https://media-2.api-sports.io/football/players/138937.png"
+                },
+                {
+                    "id": 19298,
+                    "name": "M. Cash",
+                    "age": 25,
+                    "number": 2,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/19298.png"
+                },
+                {
+                    "id": 21090,
+                    "name": "Diego Carlos",
+                    "age": 29,
+                    "number": 3,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/21090.png"
+                },
+                {
+                    "id": 19354,
+                    "name": "E. Konsa",
+                    "age": 25,
+                    "number": 4,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/19354.png"
+                },
+                {
+                    "id": 19179,
+                    "name": "T. Mings",
+                    "age": 29,
+                    "number": 5,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/19179.png"
+                },
+                {
+                    "id": 19016,
+                    "name": "C. Chambers",
+                    "age": 27,
+                    "number": 16,
+                    "position": "Defender",
+                    "photo": "https://media-2.api-sports.io/football/players/19016.png"
+                },
+                {
+                    "id": 2852,
+                    "name": "L. Augustinsson",
+                    "age": 28,
+                    "number": 17,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/2852.png"
+                },
+                {
+                    "id": 894,
+                    "name": "A. Young",
+                    "age": 37,
+                    "number": 18,
+                    "position": "Defender",
+                    "photo": "https://media-2.api-sports.io/football/players/894.png"
+                },
+                {
+                    "id": 2999,
+                    "name": "J. Bednarek",
+                    "age": 26,
+                    "number": 20,
+                    "position": "Defender",
+                    "photo": "https://media-2.api-sports.io/football/players/2999.png"
+                },
+                {
+                    "id": 21636,
+                    "name": "F. Guilbert",
+                    "age": 28,
+                    "number": 24,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/21636.png"
+                },
+                {
+                    "id": 2724,
+                    "name": "L. Digne",
+                    "age": 29,
+                    "number": 27,
+                    "position": "Defender",
+                    "photo": "https://media-1.api-sports.io/football/players/2724.png"
+                },
+                {
+                    "id": 2922,
+                    "name": "L. Dendoncker",
+                    "age": 27,
+                    "number": 32,
+                    "position": "Defender",
+                    "photo": "https://media-2.api-sports.io/football/players/2922.png"
+                },
+                {
+                    "id": 284457,
+                    "name": "L. Bogarde",
+                    "age": 18,
+                    "number": 52,
+                    "position": "Defender",
+                    "photo": "https://media-2.api-sports.io/football/players/284457.png"
+                },
+                {
+                    "id": 47522,
+                    "name": "Douglas Luiz",
+                    "age": 24,
+                    "number": 6,
+                    "position": "Midfielder",
+                    "photo": "https://media-2.api-sports.io/football/players/47522.png"
+                },
+                {
+                    "id": 19191,
+                    "name": "J.  McGinn",
+                    "age": 28,
+                    "number": 7,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/19191.png"
+                },
+                {
+                    "id": 1914,
+                    "name": "M. Sanson",
+                    "age": 28,
+                    "number": 8,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/1914.png"
+                },
+                {
+                    "id": 19071,
+                    "name": "E. Buendía",
+                    "age": 26,
+                    "number": 10,
+                    "position": "Midfielder",
+                    "photo": "https://media-2.api-sports.io/football/players/19071.png"
+                },
+                {
+                    "id": 76,
+                    "name": "M. Nakamba",
+                    "age": 28,
+                    "number": 19,
+                    "position": "Midfielder",
+                    "photo": "https://media-2.api-sports.io/football/players/76.png"
+                },
+                {
+                    "id": 147,
+                    "name": "Philippe Coutinho",
+                    "age": 30,
+                    "number": 23,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/147.png"
+                },
+                {
+                    "id": 19192,
+                    "name": "J. Ramsey",
+                    "age": 21,
+                    "number": 41,
+                    "position": "Midfielder",
+                    "photo": "https://media-1.api-sports.io/football/players/19192.png"
+                },
+                {
+                    "id": 1904,
+                    "name": "B. Kamara",
+                    "age": 23,
+                    "number": 44,
+                    "position": "Midfielder",
+                    "photo": "https://media-2.api-sports.io/football/players/1904.png"
+                },
+                {
+                    "id": 18955,
+                    "name": "D. Ings",
+                    "age": 30,
+                    "number": 9,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/18955.png"
+                },
+                {
+                    "id": 19366,
+                    "name": "O. Watkins",
+                    "age": 27,
+                    "number": 11,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/19366.png"
+                },
+                {
+                    "id": 983,
+                    "name": "L. Bailey",
+                    "age": 25,
+                    "number": 31,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/983.png"
+                },
+                {
+                    "id": 137302,
+                    "name": "C. Archer",
+                    "age": 21,
+                    "number": 35,
+                    "position": "Attacker",
+                    "photo": "https://media-2.api-sports.io/football/players/137302.png"
+                },
+                {
+                    "id": 312260,
+                    "name": "K. Young",
+                    "age": 16,
+                    "number": 72,
+                    "position": "Attacker",
+                    "photo": "https://media-1.api-sports.io/football/players/312260.png"
+                }
+            ]
+        }
+    ]
+}

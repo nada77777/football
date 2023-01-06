@@ -70,6 +70,12 @@
 }
 
 
+@media (max-width: 1100px) {
+
+    .clubItem {
+        width: 50%;
+    }
+}
 
 /* .clubLogo {
     position: absolute;

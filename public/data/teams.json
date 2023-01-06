@@ -281,6 +281,62 @@
                 "venue_address": "Rowsley Street",
                 "venue_city": "Manchester",
                 "venue_capacity": 55097
+            },
+            {
+                "team_id": 55,
+                "name": "Brentford",
+                "code": "BRE",
+                "logo": "https://media.api-sports.io/football/teams/55.png",
+                "country": "England",
+                "is_national": false,
+                "founded": 1889,
+                "venue_name": "Gtech Community Stadium",
+                "venue_surface": "grass",
+                "venue_address": "166 Lionel Rd N, Brentford",
+                "venue_city": "Brentford, Middlesex",
+                "venue_capacity": 17250
+            },
+            {
+                "team_id": 66,
+                "name": "Aston Villa",
+                "code": "AST",
+                "logo": "https://media-1.api-sports.io/football/teams/66.png",
+                "country": "England",
+                "is_national": false,
+                "founded": 1874,
+                "venue_name": "Villa Park",
+                "venue_surface": "grass",
+                "venue_address": "Trinity Road",
+                "venue_city": "Birmingham",
+                "venue_capacity": 42788
+            },
+            {
+                "team_id": 63,
+                "name": "Leeds",
+                "code": "LEE",
+                "logo": "https://media-1.api-sports.io/football/teams/63.png",
+                "country": "England",
+                "is_national": false,
+                "founded": 1919,
+                "venue_name": "Elland Road",
+                "venue_surface": "grass",
+                "venue_address": "Elland Road",
+                "venue_city": "Leeds, West Yorkshire",
+                "venue_capacity": 40204
+            },
+            {
+                "team_id": 65,
+                "name": "Nottingham Forest",
+                "code": "NOT",
+                "logo": "https://media.api-sports.io/football/teams/65.png",
+                "country": "England",
+                "is_national": false,
+                "founded": 1865,
+                "venue_name": "The City Ground",
+                "venue_surface": "grass",
+                "venue_address": "Pavilion Road",
+                "venue_city": "Nottingham, Nottinghamshire",
+                "venue_capacity": 30576
             }
         ]
     }
