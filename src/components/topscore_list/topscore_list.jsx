@@ -3,8 +3,7 @@ import React from 'react';
 const TopScoreList = ({ topScoreItem, changeProfile, rank }) => {
     const { player: { name }, statistics: [{ team, games, goals }] } = topScoreItem;
     return (
-        // <tr onClick={() => changeProfile(topScoreItem)}>
-        <tr>
+        <tr onClick={() => changeProfile(topScoreItem)}>
             <td>{rank}</td>
             <td>{name}</td>
             <td>{team.name}</td>

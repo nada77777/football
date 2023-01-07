@@ -2,7 +2,8 @@ import React from 'react';
 import styles from './club_info.module.css';
 const ClubResult = ({ clubResultItem }) => {
 
-    const { all: { played, win, draw, lose, goals }, rank, points } = clubResultItem;
+    console.log(clubResultItem);
+    const { result: { played, win, draw, lose, goals }, rank, points } = clubResultItem;
 
     return (
         <section className={styles.clubResult}>
@@ -45,40 +46,3 @@ const ClubResult = ({ clubResultItem }) => {
 };
 
 export default ClubResult;
-
-
-
-
-
-
-
-{/* <table>
-<thead>
-    <tr>
-        <th>순위</th>
-        <th>승</th>
-        <th>무</th>
-        <th>패</th>
-    </tr>
-    <tr>
-        <th>승점</th>
-        <th>득점</th>
-        <th>실점</th>
-        <th>경기</th>
-    </tr>
-</thead>
-<tbody>
-    <tr>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-    </tr>
-</tbody>
-</table> */}

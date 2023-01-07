@@ -59,6 +59,11 @@
     top: 0;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
+    background-image: url(../../../public/imgs/main.png);
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
 }
 
 .campaign {
@@ -74,4 +79,12 @@
         font-size: 14px;
     }
 
+    .logoHeader {
+        display: none;
+    }
+
+    .navLogo {
+        width: 65px;
+        height: 65px;
+    }
 }

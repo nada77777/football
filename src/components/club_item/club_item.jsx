@@ -10,8 +10,6 @@ const ClubItem = ({ clubItem }) => {
     const onClick = (event) => {
         event.preventDefault();
         navigate(`/${teamURL}/${id}`, { state: { clubId: id } });
-        // getClubInfo(id);
-        // console.log(clubItem);
     }
 
     return (

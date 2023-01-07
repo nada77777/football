@@ -1,11 +1,8 @@
 import React from 'react';
-import { UseTopScoreContext } from '../../context/topscoreContext';
 import TopScoreList from '../topscore_list/topscore_list';
 
 import styles from './topscore.module.css';
-const TopScore = ({ topScoreItems }) => {
-
-    // const { changeProfile } = UseTopScoreContext(); 추가해야함!!!!!!!!!!!!!!!!!
+const TopScore = ({ topScoreItems, changeProfile }) => {
 
     return (
         <section className={styles.standings}>
@@ -27,7 +24,7 @@ const TopScore = ({ topScoreItems }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {topScoreItems && topScoreItems.map((topScoreItem, index) => <TopScoreList key={topScoreItem.player.id} topScoreItem={topScoreItem} rank={index + 1} />)}
+                    {topScoreItems && topScoreItems.map((topScoreItem, index) => <TopScoreList key={topScoreItem.player.id} topScoreItem={topScoreItem} rank={index + 1} changeProfile={changeProfile} />)}
                 </tbody>
             </table>
 

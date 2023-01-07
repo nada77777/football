@@ -76,24 +76,3 @@
         width: 50%;
     }
 }
-
-/* .clubLogo {
-    position: absolute;
-} */
-
-/* <li className={styles.clubItem}>
-<a href="#">
-    <div className={styles.background}>
-        <span></span>
-    </div>
-    <div className={styles.clubLogo}>
-        <span className={styles.clubLogoInner}>
-            <img src={logo} />
-        </span>
-    </div>
-    <div className={styles.clubText}>
-        <h1>{name}</h1>
-        <p>Club Profile</p>
-    </div>
-</a>
-</li> */

@@ -19,17 +19,3 @@ const App = (props) => {
 };
 
 export default App;
-
-
-// return (
-//   <TopScoreContextProvider>
-//     <ClubInfoContextProvider>
-//       <StandingsContextProvider>
-//         <div className={styles.app}>
-//           <Header />
-//           <Outlet />
-//         </div>
-//       </StandingsContextProvider>
-//     </ClubInfoContextProvider>
-//   </TopScoreContextProvider>
-// );

@@ -1,17 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { UseDataContext } from '../../context/dataContext';
-import { UseStandingsContext } from '../../context/standingsContext';
 import styles from './header.module.css';
 
 const Header = (props) => {
-    // const { clubItems } = UseStandingsContext();
-    const [clubItems, setClubItems] = useState([]);
-    const { getData } = UseDataContext();
-    useEffect(() => {
-        getData.readStandingsAndClubListData()//
-            .then(result => setClubItems(result[0]));
-    }, [])
+    const { standingItemsData } = UseDataContext();
+
+    const clubItems = standingItemsData;
 
     const navigate = useNavigate();
 
@@ -40,7 +35,6 @@ const Header = (props) => {
             </div>
             <div className={styles.nav}>
                 <a onClick={(event) => onClick(event, '/')} className={styles.navLogo} href=" ">
-                    <img src='imgs/main.png' alt='main_img' />
                 </a>
                 <ul>
                     <li onClick={(event) => onClick(event, '/')}>Premier League</li>
@@ -48,7 +42,6 @@ const Header = (props) => {
                 </ul>
                 <h1 className={styles.campaign}>No Room For Racism</h1>
             </div>
-
         </section>
     );
 };

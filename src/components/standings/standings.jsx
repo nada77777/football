@@ -1,5 +1,4 @@
 import React from 'react';
-import { UseStandingsContext } from '../../context/standingsContext';
 import StandingsList from '../standings_list/standings_list';
 import styles from './standings.module.css';
 

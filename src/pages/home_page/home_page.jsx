@@ -6,18 +6,19 @@ import TopScoreProfile from '../../components/topscore_profile/topscore_profile'
 import { UseDataContext } from '../../context/dataContext';
 
 const HomePage = (props) => {
-    const [standingItems, setStandingItems] = useState([]);
+    const { getData, standingItemsData } = UseDataContext();
+    const standingItems = standingItemsData;
+
     const [topScoreItems, setTopScoreItems] = useState();
     const [topPlayer, setTopPlayer] = useState({});
-    // const { topPlayer } = UseTopScoreContext();
-    const checkTopPlayer = Object.keys(topPlayer).includes('player');
-    // console.log(topPlayer);
 
-    const { getData } = UseDataContext();
+    const checkTopPlayer = Object.keys(topPlayer).includes('player');
+
+    const changeProfile = (profile) => {
+        setTopPlayer(profile);
+    }
 
     useEffect(() => {
-        getData.readStandingsAndClubListData()//
-            .then(result => setStandingItems(result[0]));
 
         getData.readTopScoreData()//
             .then(result => {
@@ -28,17 +29,13 @@ const HomePage = (props) => {
     }, []);
 
     return (
-        <>
-            <h1>ss</h1>
-            <section className={styles.appInner}>
-                <Standings standingItems={standingItems} />
-                <section className={styles.appRight}>
-                    {checkTopPlayer && <TopScoreProfile playerList={topPlayer} display='topScore' />}
-                    {/* <TopScoreProfile playerList={topPlayer} display='topScore' /> */}
-                    <TopScore topScoreItems={topScoreItems} />
-                </section>
+        <section className={styles.appInner}>
+            <Standings standingItems={standingItems} />
+            <section className={styles.appRight}>
+                {checkTopPlayer && <TopScoreProfile playerList={topPlayer} display='topScore' />}
+                <TopScore topScoreItems={topScoreItems} changeProfile={changeProfile} />
             </section>
-        </>
+        </section>
     );
 };
 

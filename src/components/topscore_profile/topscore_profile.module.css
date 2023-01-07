@@ -30,6 +30,7 @@
 .profile .playerInfo p:first-child {
     font-size: 36px;
     font-weight: 700;
+    white-space: pre-wrap;
 }
 
 .profile .playerImg {
@@ -144,36 +145,3 @@
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <section className={styles.profile}>
-            <div className={styles.profileInner}>
-                <div className={styles.playerInfo}>
-                    <img className={styles.img} src={player.player.photo} alt="player_img" />
-                    <p>{player.player.name}</p>
-                    <p>{player.player.birth.country}</p>
-                    <p>{player.player.age}</p>
-                    <p>{player.player.height}/{player.player.weight}</p>
-                </div>
-                <div className={styles.team}>
-                    <img src={player.statistics[0].team.logo} alt="team_logo" />
-                    <p>{player.statistics[0].team.name}</p>
-                </div>
-            </div>
-        </section> */

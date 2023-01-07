@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './club_page.module.css';
 import ClubItem from '../../components/club_item/club_item';
-import { UseStandingsContext } from '../../context/standingsContext';
+import { UseDataContext } from '../../context/dataContext';
+
 
 
 const ClubPage = (props) => {
-    const { clubItems } = UseStandingsContext();
+    const [clubItems, setClubItems] = useState([]);
+    const { getData } = UseDataContext();
+    useEffect(() => {
+        getData.readStandingsAndClubListData()//
+            .then(result => setClubItems(result[0]));
+    }, []);
 
     return (
         <section className={styles.clubPage}>

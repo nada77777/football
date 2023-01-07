@@ -1,13 +1,11 @@
-import { child, get, getDatabase, onValue, ref } from "firebase/database";
+import { child, get, getDatabase, ref } from "firebase/database";
 
 export class GetData {
     constructor(databaseURL) {
-        // this.database = getDatabase(databaseURL);
         this.database = databaseURL;
     }
 
     async readStandingsAndClubListData() {
-        console.log('read');
         const dbRef = ref(getDatabase());
         const resultItems = await get(child(dbRef, 'standings')).then((snapshot) => {
             if (snapshot.exists()) {
@@ -29,7 +27,6 @@ export class GetData {
         });
         return resultItems;
     }
-
 
     async readClubInfoData() {
         const dbRef = ref(getDatabase());
@@ -59,6 +56,20 @@ export class GetData {
             };
         });
         return resultItems;
+    }
+
+    async readInfoPageData(clubId) {
+        const clubInfoItem = await this.readClubInfoData()//
+            .then(clubInfoItems => clubInfoItems.filter((item) => item.team_id === clubId)[0]);
+
+        const clubResultItems = await this.readStandingsAndClubListData()//
+            .then(clubResultItems => clubResultItems[1].filter((item) => (item.team.id === clubId))[0]);
+
+
+        const clubSquad = await this.readSquadData(clubId)//
+            .then(clubSquad => clubSquad);
+
+        return { clubInfoItem, clubResultItems, clubSquad };
     }
 
 }
